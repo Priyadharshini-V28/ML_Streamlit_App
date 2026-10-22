@@ -1,5 +1,6 @@
 import streamlit as st 
-import joblib  model = joblib.load("iris_model.pkl")  
+import joblib  
+model = joblib.load("iris_model.pkl")  
 st.title("Iris Flower Prediction")  
 sl = st.number_input("Sepal Length") 
 sw = st.number_input("Sepal Width") 
